@@ -120,6 +120,99 @@ console.log(arr);
 console.log(arr.splice(2,2,"1","2"));
 console.log(arr);
 
+let kiran = arr.length; // for getting the length of the array or no.of elements in the array.
+console.log(kiran);
+
+let a = arr[3]; // forgetting the exact element using the index number;
+console.log(a);
+
+let lastElement = arr[arr.length-1]; // to find the last element of the array;
+console.log(lastElement);
+
+let fruits = ["mango","apple","banana","orange"]; // to make given array elemnts into the strings;
+console.log(fruits.toString());
+
+fruits = ["mango","apple","banana","orange"]; // to make given array elemnts into the strings with separator;
+console.log(fruits.join("*"));
+
+fruits = ["mango","apple","banana","orange"]; // to delete given array elemnts with index number;
+console.log(delete fruits[0]);
+
+console.log(fruits);
+
+let sortNumbers = [1,10,24,5,3,12];
+
+sortNumbers.sort(function(a,b){return a-b}); // sorting of numbers using compare function in assending order;
+console.log(sortNumbers);
+
+sortNumbers.sort(function(a,b){return b-a}); // sorting of numbers using compare function in decending order;
+console.log(sortNumbers);
+
+sortNumbers.sort(function(){return 0.5 - Math.random()}); // sorting of numbers using compare function in random order;
+console.log(sortNumbers);
+
+
+const array1 = [1, 3, 2];
+console.log(Math.max(8,9,10));//for findig the maximum number of given array or numbers
+console.log(Math.max(...array1)); // for finding max by array
+
+let array2 = [1, 3, 2];
+console.log(Math.min(8,9,10));//for findig the minimum number of given array or numbers
+console.log(Math.min(...array2)); // for finding min by array
+
+
+let arrayMap = [1,8,9,24,11];
+let map1 = arrayMap.map(x=>x*3); //for modifying the array elements with map;
+console.log(map1);
+
+let companies =[
+    {name: "company one",catagory : "auto", start: 1987,end :2022},
+    {name: "company two",catagory : "auto", start: 1977,end :2022},
+    {name: "company three",catagory : "auto", start: 1967,end :2022},
+    {name: "company four",catagory : "auto", start: 1957,end :2022},
+    {name: "company five",catagory : "auto", start: 1957,end :2022}
+];
+
+const ages = [21,31,32,33,11]
+
+// // companies.forEach(function(factory){
+// //     console.log(factory.catagory);      // using forEach();
+// // });
+
+// // ages.filter(function(age){
+// //     if(age>21) {
+        
+// //         console.log(age);          // for filtring the array elements
+// //     }
+// // }
+// // );
+
+// // const eigtiesCompanies = companies.filter(company=>(company.start>=1980 && company.start<1990)); // filtering the companies which are started 1980's.
+// // console.log(eigtiesCompanies);
+
+// const companyNames=companies.map(function(company){
+// console.log(company.name);
+// }); 
+
+// const testMap = companies.map(function(company){
+// return `$(company.name) [$(company.start)-$(company.end)]`;
+// });
+// console.log(company);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
