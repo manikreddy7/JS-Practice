@@ -263,20 +263,103 @@
 
 // if Condition:
 
-let vegetable = {
-    mango: 10,
-    banana:15,
-    orange:25,
-    apple:20.
-}
-if(vegetable.apple<10){
-    console.log("cheap");
+// let vegetable = {
+//     mango: 10,
+//     banana:15,
+//     orange:25,
+//     apple:20.
+// }
+// if(vegetable.apple<10){
+//     console.log("cheap");
+// }else{
+//     console.log("costly");
+// }
+
+// JS tutorial by Telusko
+
+ let num = 25_25_25;
+ console.log(num*25);
+
+console.log(num);  
+
+// let msg = 'manik \"reddy"\ ';
+let msg = 'ma\tnik \n"redddy" ';
+let msg2= "dhruva"
+console.log(msg);
+console.log(msg[2]);
+console.log(msg.concat(msg2));
+console.log(msg+" "+msg2);
+
+let bool = 5>6;
+console.log(typeof bool);
+
+let user=null;
+console.log(user);
+
+
+//consversion and coercion
+
+let num1 = String(6)
+console.log(num1,typeof(num1));
+
+let x= 8;
+x=x-2;
+console.log(x,typeof(x));
+x=!x;
+console.log(x,typeof(x));
+console.log(Boolean(null));  
+
+
+//arthematic operators:
+
+let numA = 5;
+let numB = numA+4;
+console.log(numA);
+
+// let yy = 4;
+// let zz = ++yy;
+// console.log(zz,yy);
+
+let yy = 4;
+let zz = --yy;
+console.log(zz,yy);
+
+
+let qube = 5;
+let ans = 5**3;
+console.log(ans);
+
+ 
+let x=5;
+let y=7;
+let res=x<=y;
+// console.log(res);
+let x="pen";
+let y="book";
+let res=x>y;
+// console.log(res);
+let x=2,y=3,z=2;
+let res=x < y || y>z;
+console.log(res);
+
+conditional Statements:
+let xaa=5;
+let yaa=6;
+result= xaa<yaa;
+if(result){
+    console.log("yaa is greater");
 }else{
-    console.log("costly");
+    console.log("xaa is greater");
 }
-
-//
-
+let xaa=5;
+let yaa=6;
+let zaa=7;
+let res1 = xaa>yaa;
+if(res1){
+    console.log(xaa);
+}elseif(yaa>zaa){
+    console.log(yaa);
+}
 
 
 
