@@ -277,91 +277,164 @@
 
 // JS tutorial by Telusko
 
- let num = 25_25_25;
- console.log(num*25);
+//  let num = 25_25_25;
+//  console.log(num*25);
 
-console.log(num);  
+// console.log(num);  
 
-// let msg = 'manik \"reddy"\ ';
-let msg = 'ma\tnik \n"redddy" ';
-let msg2= "dhruva"
-console.log(msg);
-console.log(msg[2]);
-console.log(msg.concat(msg2));
-console.log(msg+" "+msg2);
+// // let msg = 'manik \"reddy"\ ';
+// let msg = 'ma\tnik \n"redddy" ';
+// let msg2= "dhruva"
+// console.log(msg);
+// console.log(msg[2]);
+// console.log(msg.concat(msg2));
+// console.log(msg+" "+msg2);
 
-let bool = 5>6;
-console.log(typeof bool);
+// let bool = 5>6;
+// console.log(typeof bool);
 
-let user=null;
-console.log(user);
-
-
-//consversion and coercion
-
-let num1 = String(6)
-console.log(num1,typeof(num1));
-
-let x= 8;
-x=x-2;
-console.log(x,typeof(x));
-x=!x;
-console.log(x,typeof(x));
-console.log(Boolean(null));  
+// let user=null;
+// console.log(user);
 
 
-//arthematic operators:
+// //consversion and coercion
 
-let numA = 5;
-let numB = numA+4;
-console.log(numA);
+// let num1 = String(6)
+// console.log(num1,typeof(num1));
+
+// let x= 8;
+// x=x-2;
+// console.log(x,typeof(x));
+// x=!x;
+// console.log(x,typeof(x));
+// console.log(Boolean(null));  
+
+
+// //arthematic operators:
+
+// let numA = 5;
+// let numB = numA+4;
+// console.log(numA);
+
+// // let yy = 4;
+// // let zz = ++yy;
+// // console.log(zz,yy);
 
 // let yy = 4;
-// let zz = ++yy;
+// let zz = --yy;
 // console.log(zz,yy);
 
-let yy = 4;
-let zz = --yy;
-console.log(zz,yy);
 
-
-let qube = 5;
-let ans = 5**3;
-console.log(ans);
+// let qube = 5;
+// let ans = 5**3;
+// console.log(ans);
 
  
-let x=5;
-let y=7;
-let res=x<=y;
+// let x=5;
+// let y=7;
+// let res=x<=y;
+// // console.log(res);
+// let x="pen";
+// let y="book";
+// let res=x>y;
+// // console.log(res);
+// let x=2,y=3,z=2;
+// let res=x < y || y>z;
 // console.log(res);
-let x="pen";
-let y="book";
-let res=x>y;
-// console.log(res);
-let x=2,y=3,z=2;
-let res=x < y || y>z;
-console.log(res);
 
-conditional Statements:
-let xaa=5;
-let yaa=6;
-result= xaa<yaa;
-if(result){
-    console.log("yaa is greater");
-}else{
-    console.log("xaa is greater");
+// conditional Statements:
+// let xaa=5;
+// let yaa=6;
+// result= xaa<yaa;
+// if(result){
+//     console.log("yaa is greater");
+// }else{
+//     console.log("xaa is greater");
+// }
+// let xaa=5;
+// let yaa=9;
+// let zaa=7;
+// let res1 = xaa>yaa;
+// if(xaa>yaa && xaa>zaa){
+//     console.log(xaa);
+
+// }else if(yaa>zaa  && yaa>xaa){
+
+//     console.log(yaa);
+// }
+// else{
+// console.log(zaa);
+// }
+
+// let xaa1=5;
+
+// // if(xaa1%2===0){
+// //     console.log("xaa1 is even");
+
+// // }else{
+
+// //     console.log("xaa1 is odd");
+// // }
+
+let result;
+result=xaa1%2===0? "even":"odd"
+console.log(result);
+
+let day = "wednesday"  
+switch(day){
+case 'monday': 
+console.log("7am");
+break;
+case 'tuesday': console.log("9am");
+break;
+case 'wednesday': 
+case 'thrusday': console.log("8am");
+break;
+case 'friday': console.log("6am");
+break;
+case 'saturday':console.log("4am");
+break;
 }
-let xaa=5;
-let yaa=6;
-let zaa=7;
-let res1 = xaa>yaa;
-if(res1){
-    console.log(xaa);
-}elseif(yaa>zaa){
-    console.log(yaa);
+
+let xaa2 = 9;
+let zaa2 = 10;
+let result = xaa2 + zaa2;
+console.log(`The addition of ${xaa2} and ${zaa2} is ${result}`);
+
+// loops:
+
+let i=1;
+while(i<=5)
+{
+console.log("Hai" ,i);
+i++;
+} 
+console.log(i);
+
+let i=6;
+do
+{
+console.log("Hai" ,i);
+i++;
+} 
+while(i<=5);
+
+for(let i=0;i<=5;i++){
+    console.log("hai",i);
 }
 
+for(i=1;i<=100;i++){
+    if(i%3===0){
+        console.log(i);
+    }
+}
 
+let num = 564782;
+let num2=0;
+while(num>0){
+console.log(num/10);
+num=parseInt(num/10);
+}
 
 
 
